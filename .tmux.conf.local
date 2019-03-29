@@ -311,5 +311,5 @@ bind -T copy-mode-vi v send-keys -X begin-selection # 绑定v键为开始选择�
 
 bind-key -T copy-mode-vi 'y' send-keys -X copy-pipe-and-cancel 'reattach-to-user-namespace pbcopy'
 bind-key -T copy-mode-vi MouseDragEnd1Pane send -X copy-pipe-and-cancel "pbcopy"
-bind n choose-tree -N
+bind C-n choose-tree -N
 bind C-s set-option status
