@@ -327,3 +327,4 @@ set -g @tpm_plugins '          \
 run '~/.tmux/plugins/tpm/tpm'
 
 set -g @continuum-restore 'on'
+set -g @resurrect-processes 'ssh'
